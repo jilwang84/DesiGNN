@@ -3,3 +3,4 @@
 
 # Ignore all files in any directory named __pycache__
 __pycache__/
+.vscode/settings.json
