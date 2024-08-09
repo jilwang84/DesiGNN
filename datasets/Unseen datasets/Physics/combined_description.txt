@@ -1,0 +1,23 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a co-authorship graph from Microsoft Academic Graph. Vertices represent authors, links represent co-author relationships, features represent the authors' paper keywords, and vertices labels indicate the author's research fields. In summary, its statistics contain 8415 features, 5 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 3.2955307262569833
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.30603317639876243
+- Average Betweenness Centrality: 0.01289624003515159
+
+General Graph Metrics:
+- Node Count: 34493
+- Edge Count: 247962
+- Average Degree: 14.37752587481518
+- Density: 0.0004168365381774087
+- Average Clustering Coefficient: 0.3776229390845259
+- Connected Components: 1
+- Assortativity: 0.2010313810362111
+- Average Degree Centrality: 0.0004168365381774087
+- Average Eigenvector Centrality: 0.0016277767776128051
+- Feature Dimensionality: 8415
+- Node Feature Diversity: 0.0036801756359636784
+- Label Homophily: 0.9314451407877014

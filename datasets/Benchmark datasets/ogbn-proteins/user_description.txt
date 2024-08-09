@@ -1,0 +1,5 @@
+Dataset Name: ogbn-proteins
+Dataset Type: Benchmark
+User Description:
+The ogbn-proteins dataset, a part of the Open Graph Benchmark, is a protein association graph, where vertices represent proteins and links represent different types of biological associations between proteins. The task is to predict the protein functions in a multi-label binary classification setup with data split based on the different species the proteins come from. In summary, its statistics contain 8 features, 112 single classes, and ROC-AUC as the evaluation metric.
+

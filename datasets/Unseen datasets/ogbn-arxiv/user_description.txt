@@ -1,0 +1,3 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a graph representing the citation relationships between papers from the arXiv Computer Science (CS) category indexed by MAG. Each paper has a feature vector based on word embedding in its title and abstract. Labels indicate the subject areas of papers, and the dataset is split based on chronological order. In summary, its statistics contain 128 features, 40 single classes, and accuracy as the evaluation metric.

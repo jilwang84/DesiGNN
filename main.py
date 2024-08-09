@@ -1,4 +1,6 @@
-''''''
+# Copyright (c) 2024-Current Anonymous
+# License: Apache-2.0 license
+
 from GraphDatasetUnderstanding.GraphDatasetUnderstanding import GraphDatasetUnderstanding
 from GraphDatasetUnderstanding.DatasetReader import DatasetReader
 from GraphDatasetComparison.GraphDatasetComparison import GraphDatasetComparison

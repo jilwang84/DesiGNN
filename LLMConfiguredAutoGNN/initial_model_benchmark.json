@@ -1,0 +1,418 @@
+{
+    "Planetoid:Cora": {
+        "benchmark": [
+            "PubMed",
+            "CiteSeer",
+            "CS"
+        ],
+        "PubMed": {
+            "link": [
+                0,
+                0,
+                1,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gcn",
+                "gin",
+                "gcn"
+            ],
+            "performance": 0.802
+        },
+        "CiteSeer": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "cheb",
+                "gat",
+                "gin",
+                "graph"
+            ],
+            "performance": 0.8056666666666666
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.7923333333333334
+        }
+    },
+    "Planetoid:CiteSeer": {
+        "benchmark": [
+            "CS",
+            "Physics",
+            "PubMed"
+        ],
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.6876666666666665
+        },
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "gcn",
+                "sage"
+            ],
+            "performance": 0.6666666666666666
+        },
+        "PubMed": {
+            "link": [
+                0,
+                0,
+                1,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "gin",
+                "gcn"
+            ],
+            "performance": 0.693
+        }
+    },
+    "Planetoid:PubMed": {
+        "benchmark": [
+            "CiteSeer",
+            "CS",
+            "Physics"
+        ],
+        "CiteSeer": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "cheb",
+                "gcn",
+                "gin",
+                "fc"
+            ],
+            "performance": 0.7636666666666666
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.766
+        },
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "gcn",
+                "sage"
+            ],
+            "performance": 0.7623333333333333
+        }
+    },
+    "Coauthor:CS": {
+        "benchmark": [
+            "Physics",
+            "Photo",
+            "Computers"
+        ],
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gcn",
+                "gat",
+                "sage"
+            ],
+            "performance": 0.8953724241217843
+        },
+        "Photo": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "gat",
+                "fc",
+                "sage",
+                "arma"
+            ],
+            "performance": 0.8941591309787863
+        },
+        "Computers": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gat",
+                "sage",
+                "gcn",
+                "gcn"
+            ],
+            "performance": 0.8965098864433448
+        }
+    },
+    "Coauthor:Physics": {
+        "benchmark": [
+            "Computers",
+            "Photo",
+            "CS"
+        ],
+        "Computers": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gat",
+                "gcn",
+                "sage",
+                "gcn"
+            ],
+            "performance": 0.9261065521907152
+        },
+        "Photo": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "sage",
+                "arma"
+            ],
+            "performance": 0.9136952564514402
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.8842196458643615
+        }
+    },
+    "Amazon:Photo": {
+        "benchmark": [
+            "Computers",
+            "Physics",
+            "CS"
+        ],
+        "Computers": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gat",
+                "gcn",
+                "sage",
+                "gcn"
+            ],
+            "performance": 0.9174074596679366
+        },
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "gcn",
+                "sage"
+            ],
+            "performance": 0.9088942194628663
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.8520295376510982
+        }
+    },
+    "Amazon:Computers": {
+        "benchmark": [
+            "Photo",
+            "Physics",
+            "CS"
+        ],
+        "Photo": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "sage",
+                "arma"
+            ],
+            "performance": 0.8106772248531429
+        },
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gcn",
+                "gat",
+                "sage"
+            ],
+            "performance": 0.8240819812126388
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.6595502419584401
+        }
+    },
+    "ogbn-arxiv": {
+        "benchmark": [
+            "Physics",
+            "CS",
+            "Photo"
+        ],
+        "Physics": {
+            "link": [
+                0,
+                0,
+                1,
+                3
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "gcn",
+                "sage"
+            ],
+            "performance": 0.7148324177519907
+        },
+        "CS": {
+            "link": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "ops": [
+                "gcn",
+                "gat",
+                "arma",
+                "graph"
+            ],
+            "performance": 0.699888209918455
+        },
+        "Photo": {
+            "link": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "ops": [
+                "gat",
+                "fc",
+                "sage",
+                "arma"
+            ],
+            "performance": 0.7114169907207374
+        }
+    }
+}

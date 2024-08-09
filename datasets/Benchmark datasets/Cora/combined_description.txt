@@ -1,0 +1,24 @@
+Dataset Name: Cora
+Dataset Type: Benchmark
+User Description:
+The Cora dataset is a citation graph where vertices represent papers and links represent citations between papers. Features are bag-of-words and labels are ground-truth topics. In summary, its statistics contain 1433 features, 7 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 1.0
+- Graph Diameter: 1.0
+- Average Closeness Centrality: 1.0
+- Average Betweenness Centrality: 0.0
+
+General Graph Metrics:
+- Node Count: 2708
+- Edge Count: 5278
+- Average Degree: 3.8980797636632203
+- Density: 0.0014399999126942077
+- Average Clustering Coefficient: 0.24067329850193728
+- Connected Components: 78
+- Assortativity: -0.06587087427227857
+- Average Degree Centrality: 0.0014399999126942077
+- Average Eigenvector Centrality: 0.0047865456098027765
+- Feature Dimensionality: 1433
+- Node Feature Diversity: 0.011958740651607513
+- Label Homophily: 0.8099658961727927

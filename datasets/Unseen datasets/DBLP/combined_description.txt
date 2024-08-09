@@ -1,0 +1,15 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a citation network dataset. The citation data is extracted from DBLP, ACM, MAG (Microsoft Academic Graph), and other sources. Each paper is associated with abstract, authors, year, venue, and title. The data set can be used for clustering with network and side information, studying influence in the citation network, finding the most influential papers, topic modeling analysis, etc. In summary, its statistics contain 1,639 features, 4 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.32121996816886245
+- Average Betweenness Centrality: 0.02729599518217405
+
+General Graph Metrics:
+- Edge Count: 52867
+- Average Degree: 5.96827726349063
+- Density: 0.00033690529288685466
+- Average Clustering Coefficient: 0.13443901556662408
+- Average Degree Centrality: 0.0003369052928868546

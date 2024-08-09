@@ -1,0 +1,23 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a subset of Amazon's co-purchase graph. Vertices represent products, and links between products represent that they are frequently bought together, features are bag-of-words of product reviews, and vertices labels are the product category. In summary, its statistics contain 745 features, 8 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 2.69797184294598
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.3746486414543327
+- Average Betweenness Centrality: 0.002738664262816096
+
+General Graph Metrics:
+- Node Count: 7650
+- Edge Count: 119081
+- Average Degree: 31.132287581699348
+- Density: 0.004070112116838717
+- Average Clustering Coefficient: 0.4039792743937545
+- Connected Components: 136
+- Assortativity: -0.04494270527930541
+- Average Degree Centrality: 0.004070112116838717
+- Average Eigenvector Centrality: 0.004240506438932563
+- Feature Dimensionality: 745
+- Node Feature Diversity: 0.21499842405319214
+- Label Homophily: 0.8272436408830964

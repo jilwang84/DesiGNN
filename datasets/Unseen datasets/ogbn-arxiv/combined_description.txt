@@ -1,0 +1,23 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a graph representing the citation relationships between papers from the arXiv Computer Science (CS) category indexed by MAG. Each paper has a feature vector based on word embedding in its title and abstract. Labels indicate the subject areas of papers, and the dataset is split based on chronological order. In summary, its statistics contain 128 features, 40 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 3.0616131441374166
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.3338630446056274
+- Average Betweenness Centrality: 0.020211893569974666
+
+General Graph Metrics:
+- Node Count: 169343
+- Edge Count: 1157799
+- Average Degree: 13.674010735607613
+- Density: 8.074789913670332e-05
+- Average Clustering Coefficient: 0.22612914062470202
+- Connected Components: 1
+- Assortativity: -0.04311895177607261
+- Average Degree Centrality: 8.074789913670332e-05
+- Average Eigenvector Centrality: 0.0007299364762486809
+- Feature Dimensionality: 128
+- Node Feature Diversity: 0.013093898072838783
+- Label Homophily: 0.655083031580897

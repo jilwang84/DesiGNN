@@ -1,0 +1,3 @@
+Dataset Type: Unseen
+User Description:
+This dataset is the actor-only induced subgraph of the film-director-actor-writer network. Each nodes correspond to an actor, and the edge between two nodes denotes co-occurrence on the same Wikipedia page. Node features correspond to some keywords in the Wikipedia pages. In summary, its statistics 932 features, 5 single classes, and accuracy as the evaluation metric. 

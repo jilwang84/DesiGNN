@@ -1,0 +1,42 @@
+{
+    "Planetoid:Cora": [
+        "PubMed",
+        "CiteSeer",
+        "CS"
+    ],
+    "Planetoid:CiteSeer": [
+        "CS",
+        "Physics",
+        "PubMed"
+    ],
+    "Planetoid:PubMed": [
+        "CiteSeer",
+        "CS",
+        "Physics"
+    ],
+    "Coauthor:CS": [
+        "Physics",
+        "Photo",
+        "Computers"
+    ],
+    "Coauthor:Physics": [
+        "Computers",
+        "Photo",
+        "CS"
+    ],
+    "Amazon:Photo": [
+        "Computers",
+        "Physics",
+        "CS"
+    ],
+    "Amazon:Computers": [
+        "Photo",
+        "Physics",
+        "CS"
+    ],
+    "ogbn-arxiv": [
+        "Physics",
+        "CS",
+        "Photo"
+    ]
+}

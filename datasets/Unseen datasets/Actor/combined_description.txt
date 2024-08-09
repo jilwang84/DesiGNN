@@ -1,0 +1,23 @@
+Dataset Type: Unseen
+User Description:
+This dataset is the actor-only induced subgraph of the film-director-actor-writer network. Each nodes correspond to an actor, and the edge between two nodes denotes co-occurrence on the same Wikipedia page. Node features correspond to some keywords in the Wikipedia pages. In summary, its statistics 932 features, 5 single classes, and accuracy as the evaluation metric. 
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 2.7583333333333333
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.37669990724767566
+- Average Betweenness Centrality: 0.12559523809523815
+
+General Graph Metrics:
+- Node Count: 7600
+- Edge Count: 26752
+- Average Degree: 7.04
+- Density: 0.0009264376891696276
+- Average Clustering Coefficient: 0.08019255113574139
+- Connected Components: 1
+- Assortativity: -0.046870850400201676
+- Average Degree Centrality: 0.0009264376891696276
+- Average Eigenvector Centrality: 0.004407899947213668
+- Feature Dimensionality: 932
+- Node Feature Diversity: 0.004854173399507999
+- Label Homophily: 0.21876145108098205

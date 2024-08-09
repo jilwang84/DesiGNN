@@ -1,0 +1,24 @@
+Dataset Name: ogbn-proteins
+Dataset Type: Benchmark
+User Description:
+The ogbn-proteins dataset, a part of the Open Graph Benchmark, is a protein association graph, where vertices represent proteins and links represent different types of biological associations between proteins. The task is to predict the protein functions in a multi-label binary classification setup with data split based on the different species the proteins come from. In summary, its statistics contain 8 features, 112 single classes, and ROC-AUC as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 1.7665342163355409
+- Graph Diameter: 2.0
+- Average Closeness Centrality: 0.5694732422316185
+- Average Betweenness Centrality: 0.0051445249418492715
+- Average Clustering Coefficient: 0.6573941635441265
+
+General Graph Metrics:
+- Node Count: 132534
+- Edge Count: 39561252
+- Average Degree: 596.9977817012993
+- Density: 0.004504521754591681
+- Connected Components: 1
+- Assortativity: 0.35520272226167543
+- Average Degree Centrality: 0.004504521754591681
+- Average Eigenvector Centrality: 0.0005329522847746617
+- Feature Dimensionality: 8
+- Node Feature Diversity: 0.004953800234943628
+- Label Homophily: 0.81

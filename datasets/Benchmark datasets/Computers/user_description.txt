@@ -1,0 +1,5 @@
+Dataset Name: Computers
+Dataset Type: Benchmark
+User Description:
+The Amazon Computers dataset is a subset of Amazon's co-purchase graph. Vertices represent products, and links between products represent that they are frequently bought together, features are bag-of-words of product reviews, and vertices labels are the product category. In summary, its statistics contain 767 features, 10 single classes, and accuracy as the evaluation metric.
+

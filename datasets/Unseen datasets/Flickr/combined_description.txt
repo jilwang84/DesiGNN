@@ -1,0 +1,20 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset originates from NUS-wide. This dataset is built by forming links between images sharing common metadata from Flickr. Edges are formed between images from the same location, submitted to the same gallery, group, or set, images sharing common tags, images taken by friends, etc. The original images are collected from PASCAL, ImageCLEF, MIR, and NUS-wide. It generated an undirected graph. One node in the graph represents one image uploaded to Flickr. If two images share some common properties (e.g., same geographic location, same gallery, comments by the same user, etc.), there is an edge between the nodes of these two images. We use the 500-dimensional bag-of-word representation of the images provided by NUS-wide as the node features. For labels, we scanned over the 81 tags of each image and manually merged them into 7 classes. Each image belongs to one of the 7 classes. In summary, its statistics contain 500 features, and 7 single classes. 
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 3.0174274216316315
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.3373888796744022
+- Average Betweenness Centrality: 0.003127794452142063
+
+General Graph Metrics:
+- Node Count: 89250
+- Edge Count: 449878
+- Average Degree: 10.081299719887955
+- Density: 0.00011295700478311192
+- Average Clustering Coefficient: 0.03295705875811584
+- Connected Components: 1
+- Assortativity: -0.04410306340496158
+- Average Degree Centrality: 0.00011295700478311189
+- Average Eigenvector Centrality: 0.000509716824916575
