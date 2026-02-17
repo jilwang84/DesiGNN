@@ -1,7 +1,7 @@
 # DesiGNN
  DesiGNN: Proficient Graph Neural Network Design by Accumulating Knowledge on Large Language Models
- 
-WSDM 2026 Submission Number: 558
+
+### This is an Outdated Repo. We are Finalizing the Latest Code Implementation for DesiGNN. Please Wait for further Notification and Updates. Thanks
 
 We present our supplementary material in the file: Supplementary Material.pdf. This includes our complete experiment settings, detailed algorithm, full results, and comprehensive studies. Furthermore, to study the generalization capability of the DesiGNN pipeline to other data and tasks, we present the following study. 
 
