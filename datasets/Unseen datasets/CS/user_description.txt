@@ -1,0 +1,3 @@
+Dataset Type: Unseen
+User Description:
+The unseen dataset is a co-authorship graph from Microsoft Academic Graph. Vertices represent authors, links represent co-author relationships, features represent the authors' paper keywords, and vertices labels indicate the author's research fields. In summary, its statistics contain 6805 features, 15 single classes, and accuracy as the evaluation metric.

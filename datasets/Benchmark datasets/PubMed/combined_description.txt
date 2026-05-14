@@ -1,0 +1,24 @@
+Dataset Name: PubMed
+Dataset Type: Benchmark
+User Description:
+The Pubmed dataset is a citation graph where vertices represent papers and links represent citations between papers. Features are bag-of-words and labels are ground-truth topics. In summary, its statistics contain 500 features, 3 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 2.251893939393939
+- Graph Diameter: 3.0
+- Average Closeness Centrality: 0.4524748732421055
+- Average Betweenness Centrality: 0.04038367546432063
+
+General Graph Metrics:
+- Node Count: 19717
+- Edge Count: 44324
+- Average Degree: 4.496018664096972
+- Density: 0.00022803908825811382
+- Average Clustering Coefficient: 0.060175209437523615
+- Connected Components: 1
+- Assortativity: -0.04364031570334561
+- Average Degree Centrality: 0.00022803908825811387
+- Average Eigenvector Centrality: 0.0014101036104415428
+- Feature Dimensionality: 500
+- Node Feature Diversity: 0.00030525095644406974
+- Label Homophily: 0.8023869686851367

@@ -1,0 +1,40 @@
+{
+  "description": "Average confidence values \\bar{I}(g_k) estimated from Figure 4 in the paper (WSDM 2026). Keys follow the internal metric names used throughout this repo.",
+  "metrics_order_g1_to_g16": [
+    "average_clustering_coefficient",
+    "local_average_betweenness_centrality",
+    "density",
+    "average_degree_centrality",
+    "local_average_closeness_centrality",
+    "average_degree",
+    "edge_count",
+    "local_graph_diameter",
+    "local_average_shortest_path_length",
+    "assortativity",
+    "average_eigenvector_centrality",
+    "feature_dimensionality",
+    "node_count",
+    "node_feature_diversity",
+    "connected_components",
+    "label_homophily"
+  ],
+  "confidence": {
+    "average_clustering_coefficient": 0.19423076923076923,
+    "local_average_betweenness_centrality": 0.18461538461538463,
+    "density": 0.10961538461538461,
+    "average_degree_centrality": 0.10961538461538461,
+    "local_average_closeness_centrality": 0.09230769230769231,
+    "average_degree": 0.0903846153846154,
+    "edge_count": 0.07307692307692308,
+    "local_graph_diameter": 0.05576923076923077,
+    "local_average_shortest_path_length": 0.04807692307692308,
+    "assortativity": 0.03653846153846154,
+    "average_eigenvector_centrality": 0.023076923076923078,
+    "feature_dimensionality": 0.0057692307692307696,
+    "node_count": -0.0019230769230769232,
+    "node_feature_diversity": -0.007692307692307693,
+    "connected_components": -0.14423076923076925,
+    "label_homophily": -0.19615384615384618
+  },
+  "source": "Figure 4 (Average confidence of graph properties) in main.pdf"
+}

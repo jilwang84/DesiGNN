@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "designn"
+version = "0.1.0"
+description = "Official implementation of DesiGNN for LLM-guided graph neural network design."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = [
+  "GraphDatasetComparison*",
+  "GraphDatasetUnderstanding*",
+  "LLMConfiguredAutoGNN*",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

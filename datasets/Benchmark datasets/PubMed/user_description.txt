@@ -1,0 +1,5 @@
+Dataset Name: PubMed
+Dataset Type: Benchmark
+User Description:
+The Pubmed dataset is a citation graph where vertices represent papers and links represent citations between papers. Features are bag-of-words and labels are ground-truth topics. In summary, its statistics contain 500 features, 3 single classes, and accuracy as the evaluation metric.
+

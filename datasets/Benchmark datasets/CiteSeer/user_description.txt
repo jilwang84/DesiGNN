@@ -1,0 +1,5 @@
+Dataset Name: CiteSeer
+Dataset Type: Benchmark
+User Description:
+The Citeseer dataset is a citation graph where vertices represent papers and links represent citations between papers. Features are bag-of-words and labels are ground-truth topics. In summary, its statistics 3703 features, 6 single classes, and accuracy as the evaluation metric. 
+

@@ -1,0 +1,24 @@
+Dataset Name: Computers
+Dataset Type: Benchmark
+User Description:
+The Amazon Computers dataset is a subset of Amazon's co-purchase graph. Vertices represent products, and links between products represent that they are frequently bought together, features are bag-of-words of product reviews, and vertices labels are the product category. In summary, its statistics contain 767 features, 10 single classes, and accuracy as the evaluation metric.
+
+2-Hop Subgraph Metrics:
+- Average Shortest Path Length: 2.5689061717099104
+- Graph Diameter: 4.0
+- Average Closeness Centrality: 0.3940379176382557
+- Average Betweenness Centrality: 0.003674253329531406
+
+General Graph Metrics:
+- Node Count: 13752
+- Edge Count: 245861
+- Average Degree: 35.7563990692263
+- Density: 0.0026002762758509414
+- Average Clustering Coefficient: 0.34412638745332397
+- Connected Components: 314
+- Assortativity: -0.056487705164197634
+- Average Degree Centrality: 0.0026002762758509414
+- Average Eigenvector Centrality: 0.0033683404991575005
+- Feature Dimensionality: 767
+- Node Feature Diversity: 0.21507202088832855
+- Label Homophily: 0.7772155811617133

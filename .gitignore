@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+env/
+key.txt
+temp_key.txt
+openai_key*
+*api_key*
+
+# Run outputs
+responses/
+runs/
+logs/
+*.log
+
+# Downloaded graph data and generated caches
+datasets/**/raw/
+datasets/**/processed/
+
+# NAS-Bench-Graph full benchmark files
+*.bench
+nas_bench_graph/
+NBG/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
